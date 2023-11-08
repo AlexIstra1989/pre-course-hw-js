@@ -1,4 +1,3 @@
-// code
 let number = 1;
 
 let result1 = number++;  
