@@ -1,6 +1,3 @@
-let number = 1;
+let number1 = Math.floor(Math.random() * 100);
 
-console.log(number++);
-console.log(++number);
-console.log(number--);
-console.log(--number);
+console.log(number1 % 2 == 0 ? number1 + ':Это четное число' : number1 + ':Это нечетное число');
