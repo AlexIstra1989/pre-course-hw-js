@@ -3,9 +3,9 @@ let passport = {
     surname: "Petrov",
 };
 
-let document = Object.assign({}, passport);
+let passport2 = Object.assign({}, passport);
 
-document.name = 'Ivan';
+passport2.name = "Ivan";
 
 console.log(passport.name);
-console.log(document.name);
+console.log(passport2.name);
